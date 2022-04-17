@@ -1,0 +1,47 @@
+.cardWrapper {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  width: 600px;
+}
+
+.card .right {
+  margin-left: 20px;
+}
+
+.card .right h3 {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.card .right h3::after {
+  content: '';
+  width: 32px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -14px;
+  background: #304057;
+}
+
+.card .right p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #97a8c5;
+}
+
+.card .right a {
+  text-decoration: none;
+  color: #4f8ad5;
+}
+
+.card .right a:active {
+  color: #6fd9f7;
+}
